@@ -32,3 +32,6 @@ cout<<pc<<endl;
      delete []pc;
     return 0;
 }
+/**
+远程edit
+**/
