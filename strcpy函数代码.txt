@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+    char str[100] = { 0 };
+    size_t len;
+    gets(str);
+    len = strlen(str);
+    printf("Length: %d\n", len);
+
+    int *p = (int *)malloc( sizeof(int)*len+1 );
+
+    for(int i=0; i<len+1; i++)
+    {
+        p[i] = i;
+    }
+
+    for(int i=0; i<len+1; i++)
+    {
+        printf("%d\n",p[i]);
+    }
+
+    free(p);
+    p = NULL;
+clrscr();
+	memcpy(d,s,strlen(s));
+	d[strlen(s)]=0;
+	printf( "%s ",d);
+	getchar();
+cout<<pc<<endl;
+
+     delete []pc;
+    return 0;
+}
